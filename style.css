@@ -1,0 +1,161 @@
+html {
+    background-color: rgba(13, 17, 23, 1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+header {
+    background-color: rgba(26, 36, 64, 0.9);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1.parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+h1.parent img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+.text_div {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 445px;
+    color: rgba(240, 230, 200, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav.navi {
+    background-color: rgba(26, 36, 64, 0.85);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    margin: 10px 0px;
+    text-align: center;
+}
+
+nav.navi a {
+    color: rgba(232, 204, 122, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0px 10px;
+    transition-duration: 1s;
+}
+
+nav.navi a:hover {
+    color: rgba(200, 168, 75, 1);
+    text-decoration: underline;
+}
+
+aside {
+    background-color: rgba(26, 36, 64, 0.85);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    margin: 10px 10px 10px 0px;
+    float: left;
+    width: 250px;
+}
+
+aside img {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition-duration: 1s;
+}
+
+aside p {
+    display: block;
+    color: rgba(184, 169, 140, 1);
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+article.sec1 {
+    background-color: rgba(20, 27, 45, 0.85);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+article.sec1 header {
+    background-color: rgba(31, 46, 80, 0.85);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: rgba(232, 204, 122, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(26, 36, 64, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+section p {
+    color: rgba(240, 230, 200, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+h3 {
+    color: rgba(200, 168, 75, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(26, 36, 64, 0.85);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    clear: both;
+}
+
+footer img {
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+    transition-duration: 1s;
+}
+
+footer p {
+    color: rgba(184, 169, 140, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
